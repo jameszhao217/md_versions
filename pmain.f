@@ -66,8 +66,6 @@ c
 c
 c---- write banner
       if(rank.eq.0) write(6,'('' C A D D   p r o g r a m '')')
-      if(rank.eq.0) write(6,'('' Hello World '')')
-
 
       ! START up LAMMPS:
       call lammps_open('lmp',MPI_COMM_WORLD,lmp)
